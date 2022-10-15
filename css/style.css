@@ -1,0 +1,77 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1400px;
+    margin: 0px auto;
+}
+
+#menu_top {
+    height: 150px;
+}
+#menu_top ul{
+    height: 50px;
+    line-height: 50px;
+}
+
+#menu_top ul li{
+    list-style: none;
+    float: right;
+}
+
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 10px 0px 20px;
+}
+
+#banner {
+    text-align: center;
+    clear: right;
+    height: auto;
+    width: 1400px;
+}
+
+#banner img {
+    border-bottom: 20px;
+}
+
+#search{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    width: 1400px;
+    border-bottom: 20px;
+}
+
+input[type=text] {
+    width: 350px;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+
+#list{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+#list button {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 10px 10px 10px 10px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    font-size: 14px;
+    color: black;
+}
+
+#language {
+    text-align: center;
+
+}
+
+
+  
