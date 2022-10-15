@@ -1,12 +1,13 @@
 body {
     font-family: Tahoma;
     font-size: 13px;
-    width: 1400px;
+    width: 100%;
     margin: 0px auto;
 }
 
 #menu_top {
     height: 150px;
+    float: right;
 }
 #menu_top ul{
     height: 50px;
@@ -15,22 +16,30 @@ body {
 
 #menu_top ul li{
     list-style: none;
-    float: right;
+    float: left;
+    
 }
 
 #menu_top ul li a{
     text-decoration: none;
     display: block;
     height: 50px;
+    line-height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+
+#menu_top ul li img {
+    display: block;
+    height: 50px;
     line-height: 50px;
-    padding: 0px 10px 0px 20px;
+    padding: 0px 10px 0px 10px;
 }
 
 #banner {
     text-align: center;
     clear: right;
     height: auto;
-    width: 1400px;
+    width: 100%;
 }
 
 #banner img {
@@ -41,7 +50,7 @@ body {
     text-align: center;
     height: 70px;
     line-height: 70px;
-    width: 1400px;
+    width: 100%;
     border-bottom: 20px;
 }
 
@@ -60,18 +69,69 @@ input[type=text] {
 }
 
 #list button {
-    border: none; /* Remove borders */
-    color: white; /* Add a text color */
+    border: none; /* Remove borders */  
     padding: 10px 10px 10px 10px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     font-size: 14px;
     color: black;
 }
 
+#list button a {
+    color: black;
+    text-decoration: none;
+}
+
 #language {
     text-align: center;
+    height: 250px;
+}
 
+#end {
+    height: 100px;
+    background-color: grey;
+}
+
+#end #country {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 50px;
+    border-bottom: 1px solid black;
+}
+
+#end #other #left {
+    float: left;
 }
 
 
-  
+#end #other #left ul li {
+    list-style: none;
+    float: left;
+}
+
+#end #other #left ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+
+#end #other #right {
+    padding-right: 20px;
+    float: right;
+}
+
+#end #other #right ul li {
+    list-style: none;
+    float: left;
+}
+
+#end #other #right ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px 0px 10px;
+}
